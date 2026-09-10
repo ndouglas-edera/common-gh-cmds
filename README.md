@@ -58,6 +58,14 @@ sed -n '1,240p' content/guides/observability/falco-integration.md
 
 
 ## Start Hugo locally
+Need to install Hugo for Mac:
+```
+brew install hugo
+```
+Confirming it was installed correctly:
+```
+hugo version
+```
 Before changing anything, I made sure the existing site builds.
 ```
 cd Desktop/docs-site
