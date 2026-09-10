@@ -95,6 +95,12 @@ brew uninstall hugo
 ```
 <img width="1167" height="635" alt="Screenshot 2026-09-10 at 11 18 24" src="https://github.com/user-attachments/assets/0c771a7a-be46-4262-9c87-5a569ca8d0c2" />
 
+We can ask GitHub what assets actually exist for ```Hugo 0.140.2```:
+```
+gh release view v0.140.2 --repo gohugoio/hugo
+```
+<img width="1150" height="814" alt="Screenshot 2026-09-10 at 11 26 10" src="https://github.com/user-attachments/assets/f7875b60-e779-44c8-9a08-af63891cd190" />
+
 
 According to the repo's instructions, that should start Hugo with drafts enabled and serve the site at:
 ```
