@@ -74,6 +74,10 @@ I ran the command:
 ```
 npm run dev
 ```
+
+<img width="1167" height="635" alt="Screenshot 2026-09-10 at 11 11 39" src="https://github.com/user-attachments/assets/3ae70f9d-2cd2-4fae-a832-c596f38dad3a" />
+
+
 According to the repo's instructions, that should start Hugo with drafts enabled and serve the site at:
 ```
 http://localhost:1313
