@@ -139,3 +139,5 @@ According to the repo's instructions, that should start Hugo with drafts enabled
 ```
 http://localhost:1313
 ```
+<img width="1153" height="495" alt="Screenshot 2026-09-10 at 11 38 47" src="https://github.com/user-attachments/assets/b97e47be-a6d3-4b30-82c3-647a5136e60f" />
+
