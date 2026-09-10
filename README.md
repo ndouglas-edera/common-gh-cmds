@@ -51,5 +51,5 @@ git checkout -b docs/falco-quickstart
 ```
 We can inspect it from Terminal with:
 ```
-sed -n '1,240p' content/how-to-guides/falco-quickstart.md
+sed -n '1,240p' content/guides/observability/falco-integration.md
 ```
