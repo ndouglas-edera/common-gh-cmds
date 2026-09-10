@@ -193,6 +193,10 @@ I can open the pull request:
 ```
 gh pr create --fill
 ```
+
+<img width="1152" height="630" alt="Screenshot 2026-09-10 at 15 10 00" src="https://github.com/user-attachments/assets/10310e47-fc70-4d34-adeb-0e7e34ed3c42" />
+
+
 It'll ask us for things like the ```title```/```body```.<br/>
 PR title:
 ```
