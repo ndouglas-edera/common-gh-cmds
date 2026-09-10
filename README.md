@@ -254,3 +254,33 @@ git diff
 
 <img width="1159" height="526" alt="Screenshot 2026-09-10 at 16 12 34" src="https://github.com/user-attachments/assets/4e92d99d-d7b7-44f8-b853-b7bdf8d74733" />
 
+Had to check what git saw as far as changes:
+```
+git status
+```
+Always review the complete PR change
+
+```
+git diff main...HEAD
+```
+
+Stage the fixes
+```
+git add content/guides/cli-user-guide.md
+```
+Making sure the staged diff contains only what we intended.
+```
+git diff --cached
+```
+Commit the lint fix
+```
+git commit -m "docs: fix markdown lint issues"
+```
+Push it
+```
+git push
+```
+My existing PR #576 will automatically update with the new commit.
+
+<img width="1159" height="1020" alt="Screenshot 2026-09-10 at 16 26 11" src="https://github.com/user-attachments/assets/25015dff-8cc6-48fb-9c0f-3044beb85857" />
+
