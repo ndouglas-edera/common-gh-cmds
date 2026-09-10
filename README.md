@@ -227,7 +227,7 @@ gh issue list --repo edera-dev/security --limit 20
 ```
 gh api repos/edera-dev/security/contents/.github/ISSUE_TEMPLATE
 ```
-View the status of my **[First PR](https://deploy-preview-576--edera-docs.netlify.app/guides/cli-user-guide/)**:
+View the status of my **[First PR](https://deploy-preview-576--edera-docs.netlify.app/guides/cli-user-guide/#launching-your-first-zone)**:
 ```
 gh pr view 576
 ```
