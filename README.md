@@ -228,13 +228,18 @@ gh issue list --repo edera-dev/security --limit 20
 gh api repos/edera-dev/security/contents/.github/ISSUE_TEMPLATE
 ```
 View the status of my **[First PR](https://deploy-preview-576--edera-docs.netlify.app/guides/cli-user-guide/#launching-your-first-zone)**:
+
 ```
 gh pr view 576
 ```
+
 <img width="1161" height="1080" alt="Screenshot 2026-09-10 at 16 02 57" src="https://github.com/user-attachments/assets/299e6eff-70e8-42ee-abb0-074b43c9f7bd" />
+
 ```
 gh pr checks 576
 ```
+
 My first PR appeared to be failing a bunch of lint checks
+
 <img width="1159" height="526" alt="Screenshot 2026-09-10 at 16 12 34" src="https://github.com/user-attachments/assets/a1c351fd-c5f6-4eb2-b33a-d72a6b3b078a" />
 
