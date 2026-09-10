@@ -150,3 +150,64 @@ Reading the **CLI User Guide** docs:
 ```
 cat Desktop/docs-site/content/guides/cli-user-guide.md
 ```
+
+## Push to a branch and open an issue in the security repo
+
+From ```~/Desktop/docs-site```, check what changes have been made:
+```
+git status
+```
+Before doing anything else, check the actual diff:
+```
+git diff -- content/guides/cli-user-guide.md
+```
+I want to verify that the only change is the ```<iframe>```. <br/>
+If I'm currently still on ```main```, I need to create a feature branch.
+```
+git switch -c docs/add-webernetes-iframe
+```
+My existing change will remain there — creating the branch doesn't throw anything away. <br/>
+First, I will need to ```stage``` the file:
+```
+git add content/guides/cli-user-guide.md
+```
+Then check what we are about to ```commit```:
+```
+git diff --cached
+```
+```
+git commit -m "docs: added the Webernetes terminal to CLI guide"
+```
+```
+git status
+```
+Push the branch to GitHub
+```
+git push -u origin docs/add-webernetes-iframe
+```
+Because I'm already authenticated with GitHub CLI, this should work without asking for a password. <br/>
+I can open the pull request:
+```
+gh pr create --fill
+```
+It'll ask us for things like the ```title```/```body```.<br/>
+PR title:
+```
+docs: add Webernetes terminal to CLI guide
+```
+Simple description:
+```
+## Summary
+
+- Adds the interactive Webernetes terminal to the CLI user guide.
+- Embeds the existing Webernetes demo using an iframe.
+
+## Testing
+
+- Verified locally with `npm run dev`.
+- Confirmed the iframe renders correctly at localhost:1313.
+```
+Finding the ```security``` repo:
+```
+gh repo list edera-dev --limit 100
+```
