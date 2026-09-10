@@ -53,3 +53,6 @@ We can inspect it from Terminal with:
 ```
 sed -n '1,240p' content/guides/observability/falco-integration.md
 ```
+
+<img width="1167" height="635" alt="Screenshot 2026-09-10 at 11 04 04" src="https://github.com/user-attachments/assets/675d792f-b3e4-4fb1-82cd-1be76d2a03da" />
+
