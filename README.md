@@ -234,3 +234,7 @@ gh pr view 576
 ```
 gh pr checks 576
 ```
+My first PR appeared to be failing a bunch of lint checks
+
+<img width="1161" height="1080" alt="Screenshot 2026-09-10 at 16 02 57" src="https://github.com/user-attachments/assets/299e6eff-70e8-42ee-abb0-074b43c9f7bd" />
+
