@@ -218,3 +218,19 @@ Finding the ```security``` repo:
 ```
 gh repo list edera-dev --limit 100
 ```
+```
+gh repo view edera-dev/security
+```
+```
+gh issue list --repo edera-dev/security --limit 20
+```
+```
+gh api repos/edera-dev/security/contents/.github/ISSUE_TEMPLATE
+```
+View the status of my **[First PR](https://deploy-preview-576--edera-docs.netlify.app/guides/cli-user-guide/)**:
+```
+gh pr view 576
+```
+```
+gh pr checks 576
+```
