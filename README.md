@@ -4,7 +4,6 @@ Bunch of random Github commands I'll probably need in the future
 ```
 brew install gh
 ```
-
 ```
 gh auth login
 ```
@@ -14,7 +13,6 @@ or my preferred method:
 ```
 gh auth login --web
 ```
-
 ```
 gh auth status
 ```
@@ -23,7 +21,6 @@ That last command explicitly configures Git to use GitHub CLI as its credential 
 ```
 gh auth setup-git
 ```
-
 ```
 cd ~/Desktop
 git clone https://github.com/edera-dev/docs-site.git
@@ -133,6 +130,10 @@ git submodule status
 ```
 <img width="1153" height="662" alt="Screenshot 2026-09-10 at 11 31 30" src="https://github.com/user-attachments/assets/795cfcb5-c493-4951-b798-a55e4196c18a" />
 
+## Hugo is now finally install correctly at the right PATH
+```
+npm run dev
+```
 
 According to the repo's instructions, that should start Hugo with drafts enabled and serve the site at:
 ```
