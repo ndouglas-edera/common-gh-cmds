@@ -101,6 +101,38 @@ gh release view v0.140.2 --repo gohugoio/hugo
 ```
 <img width="1150" height="814" alt="Screenshot 2026-09-10 at 11 26 10" src="https://github.com/user-attachments/assets/f7875b60-e779-44c8-9a08-af63891cd190" />
 
+```
+rm -f /tmp/hugo.tar.gz
+```
+```
+curl -L -o /tmp/hugo.tar.gz \
+  https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_extended_0.140.2_darwin-universal.tar.gz
+```
+```
+mkdir -p ~/bin
+tar -xzf /tmp/hugo.tar.gz -C ~/bin  
+```
+```
+ls -l ~/bin/hugo
+```
+```
+chmod +x ~/bin/hugo
+```
+```
+~/bin/hugo version
+```
+```
+which hugo
+hugo version
+```
+```
+git submodule update --init --recursive
+```
+```
+git submodule status
+```
+<img width="1153" height="662" alt="Screenshot 2026-09-10 at 11 31 30" src="https://github.com/user-attachments/assets/795cfcb5-c493-4951-b798-a55e4196c18a" />
+
 
 According to the repo's instructions, that should start Hugo with drafts enabled and serve the site at:
 ```
