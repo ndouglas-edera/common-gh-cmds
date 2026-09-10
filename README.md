@@ -243,3 +243,14 @@ My first PR appeared to be failing a bunch of lint checks
 
 <img width="1159" height="526" alt="Screenshot 2026-09-10 at 16 12 34" src="https://github.com/user-attachments/assets/a1c351fd-c5f6-4eb2-b33a-d72a6b3b078a" />
 
+Fixed the outstanding linter issues - (silly line breaks I included):
+```
+npm run lint
+```
+
+```
+git diff
+```
+
+<img width="1159" height="526" alt="Screenshot 2026-09-10 at 16 12 34" src="https://github.com/user-attachments/assets/4e92d99d-d7b7-44f8-b853-b7bdf8d74733" />
+
