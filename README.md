@@ -175,6 +175,9 @@ Then check what we are about to ```commit```:
 ```
 git diff --cached
 ```
+<img width="1152" height="663" alt="Screenshot 2026-09-10 at 15 07 14" src="https://github.com/user-attachments/assets/b7c80d11-1b59-4924-a901-1fc7c9f2c5e2" />
+
+
 ```
 git commit -m "docs: added the Webernetes terminal to CLI guide"
 ```
