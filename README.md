@@ -77,6 +77,10 @@ npm run dev
 
 <img width="1167" height="635" alt="Screenshot 2026-09-10 at 11 11 39" src="https://github.com/user-attachments/assets/3ae70f9d-2cd2-4fae-a832-c596f38dad3a" />
 
+I got errors. Needed to check whether the repo pins Hugo somewhere else.
+```
+grep -R "0.140.2" -n . --exclude-dir=.git --exclude-dir=node_modules
+```
 
 According to the repo's instructions, that should start Hugo with drafts enabled and serve the site at:
 ```
