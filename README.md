@@ -233,7 +233,8 @@ View the status of my **[First PR](https://deploy-preview-576--edera-docs.netlif
 gh pr view 576
 ```
 
-<img width="1161" height="1080" alt="Screenshot 2026-09-10 at 16 02 57" src="https://github.com/user-attachments/assets/299e6eff-70e8-42ee-abb0-074b43c9f7bd" />
+<img width="1161" height="1080" alt="649550064-299e6eff-70e8-42ee-abb0-074b43c9f7bd" src="https://github.com/user-attachments/assets/e82689bc-7d42-4c84-8eb5-c68f985ddf80" />
+
 
 ```
 gh pr checks 576
