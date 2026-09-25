@@ -320,3 +320,17 @@ Push to GitHub
 ```
 git push origin docs/add-webernetes-iframe
 ```
+
+<img width="1356" height="886" alt="Screenshot 2026-09-25 at 17 08 05" src="https://github.com/user-attachments/assets/6a3e7139-d54e-4d98-9fdc-a67fb1d21465" />
+
+```
+git fetch origin
+```
+
+```
+git log --oneline --graph --decorate --all -10
+```
+
+```
+git pull --rebase origin docs/add-webernetes-iframe
+```
