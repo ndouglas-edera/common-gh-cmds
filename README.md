@@ -334,3 +334,13 @@ git log --oneline --graph --decorate --all -10
 ```
 git pull --rebase origin docs/add-webernetes-iframe
 ```
+
+```
+git push origin docs/add-webernetes-iframe
+```
+
+```
+git status
+```
+
+<img width="1356" height="289" alt="Screenshot 2026-09-25 at 17 11 42" src="https://github.com/user-attachments/assets/c7189b0d-cec3-47e9-97da-c2c555b8fc8d" />
