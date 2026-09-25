@@ -308,6 +308,10 @@ Then verify what is staged:
 git diff --cached --stat
 git diff --cached
 ```
+
+<img width="1356" height="308" alt="Screenshot 2026-09-25 at 17 05 00" src="https://github.com/user-attachments/assets/98d94390-5724-41ad-ad48-7b58f21e4160" />
+
+
 Commit the changes:
 ```
 git commit -m "docs: add binpacking technical overview"
