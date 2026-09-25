@@ -289,3 +289,30 @@ Moving the code over to the Edera org with branch protection: <br/>
 **[Merged PR](https://github.com/edera-dev/docs-terminal/pull/1)**
 
 <img width="1504" height="858" alt="Screenshot 2026-09-15 at 09 59 36" src="https://github.com/user-attachments/assets/7f1ea34c-54f2-49ca-b1d2-ab4f0bd85bc6" />
+
+If multiple files were changed, go to the parent directory:
+```
+cd ~/Desktop/docs-site
+```
+See which files were modified specifically:
+```
+git status --short
+```
+If you want to commit both the modified CLI guide and the new Binpacking documentation:
+```
+git add content/guides/cli-user-guide.md
+git add content/technical-overview/binpacking/
+```
+Then verify what is staged:
+```
+git diff --cached --stat
+git diff --cached
+```
+Commit the changes:
+```
+git commit -m "docs: add binpacking technical overview"
+```
+Push to GitHub
+```
+git push origin docs/add-webernetes-iframe
+```
